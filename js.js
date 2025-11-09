@@ -12,4 +12,4 @@ img1Ref.alt = "cat";
 
 const listRef = document.querySelector(".list");
 const firstElementChildRef = listRef.firstElementChild;
-firstElementChildRef.value = "hello";
+firstElementChildRef.textContent = "hello";
